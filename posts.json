@@ -18,9 +18,9 @@
     },
     {
       "title": "Test Post 3",
-      "description": "Description of test post 2",
+      "description": "Description of test post 3",
       "read-time": "3",
-      "content": "Here is some sample code: \u003cdiv class='code-box'\u003e \u003cspan class='keyword' \u003e var \u003c/span\u003e  \u003c/div\u003e",
+      "content": "Here is some sample code: \u003cdiv class='code-box'\u003e \u003cspan class='keyword' \u003e var \u003c/span\u003e  \u003cspan class='keyname'\u003e foo \u003c/span\u003e = \u003cspan class='variable'\u003e 12 \u003c/span\u003e \u003cbr\u003e\u003cbr\u003e   \u003cspan class='keyword'\u003e function \u003c/span\u003e \u003cspan class='keyname'\u003ebar\u003c/span\u003e() { \u003cbr\u003e\u003cbr\u003e } \u003c/div\u003e",
       "date": "01/01/2024",
       "id": 2
     }
