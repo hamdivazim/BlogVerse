@@ -2,7 +2,7 @@
   "banners": [
     {
       "title": "Welcome!",
-      "body": "\u003cb\u003e Hey - \u003c/b\u003e welcome to my blog! Here I hope you'll learn some awesome new things here :) \u003ca class='banner-btn' href='posts.html?id=1'\u003e Learn More \u003c/a\u003e"
+      "body": "\u003cb\u003e Hey - \u003c/b\u003e welcome to my blog! Here I hope you'll learn some awesome new things here :) \u003ca class='banner-btn' href='post.html?id=1'\u003e Learn More \u003c/a\u003e"
     }
   ]
 }
