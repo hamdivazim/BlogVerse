@@ -9,7 +9,8 @@ const lastTwentyPosts = archive.posts.slice(-20);
 
 // Create a new object with the extracted posts
 const postsObject = {
-  posts: lastTwentyPosts
+  posts: lastTwentyPosts,
+  num: posts.num
 };
 
 
