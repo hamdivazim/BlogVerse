@@ -21,5 +21,5 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Extract and Store Posts
-        run: node extract-posts.js
+      - name: Retrieve Latest Posts
+        run: node getLatestPosts.js
