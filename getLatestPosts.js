@@ -7,8 +7,6 @@ const archive = JSON.parse(archiveData);
 // Get the last twenty items from the 'posts' array
 const lastTwentyPosts = archive.posts.slice(-20);
 
-console.log(lastTwentyPosts);
-
 // Create a new object with the extracted posts
 const postsObject = {
   posts: lastTwentyPosts,
@@ -18,3 +16,4 @@ const postsObject = {
 // Write the extracted posts to 'posts.json'
 fs.writeFileSync('posts.json', JSON.stringify(postsObject, null, 2));
 
+console.log('Data successfully written to posts.json');
