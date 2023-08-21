@@ -7,6 +7,8 @@ const archive = JSON.parse(archiveData);
 // Get the last twenty items from the 'posts' array
 const lastTwentyPosts = archive.posts.slice(-20);
 
+console.log(lastTwentyPosts);
+
 // Create a new object with the extracted posts
 const postsObject = {
   posts: lastTwentyPosts,
