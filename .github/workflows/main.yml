@@ -23,5 +23,3 @@ jobs:
 
       - name: Retrieve Latest Posts
         run: node getLatestPosts.js
-        with:
-          cache: 'none'
