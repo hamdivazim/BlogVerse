@@ -12,7 +12,10 @@ const postsObject = {
   posts: lastTwentyPosts
 };
 
-// Write the extracted posts to 'posts.json'
-fs.writeFileSync('posts.json', JSON.stringify(postsObject, null, 2));
 
-console.log(fs.readFileSync('posts.json', 'utf8'));
+try {
+  fs.writeFileSync('posts.json', JSON.stringify(postsObject, null, 2));
+  console.log(fs.readFileSync('posts.json', 'utf8'));
+} catch (error) {
+  console.error('Error writing to posts.json:', error.message);
+}
