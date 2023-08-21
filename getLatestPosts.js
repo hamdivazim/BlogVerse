@@ -5,11 +5,11 @@ const archiveData = fs.readFileSync('archive.json', 'utf8');
 const archive = JSON.parse(archiveData);
 
 // Get the last twenty items from the 'posts' array
-const lastTwentyPosts = archive.posts.slice(-20);
+const recents = archive.posts.slice(-8);
 
 // Create a new object with the extracted posts
 const postsObject = {
-  posts: lastTwentyPosts,
+  posts: recents,
   num: archive.num
 };
 
