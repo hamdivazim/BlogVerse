@@ -23,3 +23,15 @@ jobs:
 
       - name: Retrieve Latest Posts
         run: node getLatestPosts.js
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "hamdivazim"
+          git config --global user.email "coding.wizard4@gmail.com"
+          git add posts.json
+          git commit -m "Push recent posts (on behalf of hamdivazim)"
+        
+      - name: Push Changes
+        run: |
+          git push origin main
+
