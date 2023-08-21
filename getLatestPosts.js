@@ -17,3 +17,4 @@ const postsObject = {
 
 // Write the extracted posts to 'posts.json'
 fs.writeFileSync('posts.json', JSON.stringify(postsObject, null, 2));
+
