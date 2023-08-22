@@ -1,11 +1,19 @@
 {
   "posts": [
     {
-      "title": "Test Post 2",
-      "description": "Description of test post 2",
+      "title": "Welcome!",
+      "description": "Welcome to my new blog!",
+      "read-time": "1",
+      "content": "Hello everyone! I'm glad to have you visiting my blog! From time to time I'll post some tips or a project idea or something interesting! <h2>Who am I?</h2> <p> I'm Hamd, a twelve year old who works in Swift, Python, Web Dev, Data Science, and more! I love exploring new things and playing around with AI! You can learn more about me <a href=\"about.html\">here</a> </p> <h2>What will I write about?</h2> A lot! Sometimes it'll be tutorials, maybe a quick tip, maybe I might just tell you something I stumbled across! Soon, you'll be able to find a lot on this blog :) <p>Thanks again for visiting my blog, and I hope you'll learn something new here!",
+      "date": "18/08/2022",
+      "id": 1
+    },
+    {
+      "title": "Python Lambdas",
+      "description": "How inline, temporary function work in Python and how they are used",
       "read-time": "3",
-      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "date": "01/01/2024",
+      "content": "<p> Methods are an essential part of programming, and that's no different in Python. But sometimes, there are situations in which it'll be a hassle to define a whole function, or you'll only use the method once and it will make the file unnecessarily large. This is where <b>lambdas</b> become useful!</p> <p>Lambdas are a quick one-line way to define a method, and they are <em>anonymous</em>, which means they do not have a name, unlike a typical function.  Let's see how they look:  <div class='code-box'><span class='keyname'>my_lambda</span> = <span class='keyword'>lambda</span <span class='variable'>arg1, arg2: arg1+arg2</span> <br><br> <span class='keyname'>print</span>(<span class='keyname'>my_lambda</span>(<span class='variable'>2</span>, <span class='variable'>3</span>))</div> <p>We are creating a variable called <span class='codeline'>my_lambda</span> that holds the lambda. When we call it (<span class='codeline'>my_lambda()</span>) we execute the lambda method, which adds two values together. Now let's look into the syntax of lambdas. </p> <p>First we use the <span class='codeline'>lambda</span> keyword and then provide parameters. We list them the same way as a normal method: comma seperated. Optionally, you can provide a default value by putting an equal symbol then the default value, just like a normal function. After providing the arguments, put a colon, and then the return value. In the code block above, we added the two parameters together. <h2>Use Cases</h2> <p>When would you use a lambda?</p> <p>One of the ways I use a lambda quite often, is when I want to trigger another function. Say for example you had a tkinter button which should trigger the method <span class='codeline'>my_function(a, b)</span>. I can't provide parameters to the method in the button trigger, so I would use a simple lambda: </p> <div class='code-box'><span class='keyname'>command</span>=<span class='keyword'>lambda</span>: <span class='keyname'>my_function</span>(1, 2) </div> <p>In this scenario, I only want to use this lambda once and it also allows me to provide arguments to my method, so it is a great and simple solution!</p> <p>I hope you learnt something new about lambdas today! Thanks for reading :)</p>",
+      "date": "22/08/2023",
       "id": 2
     },
     {
@@ -15,55 +23,7 @@
       "content": "Here is some sample code: <div class='code-box'> <span class='keyword' > var </span>  <span class='keyname'> foo </span> = <span class='variable'> 12</span>; <br><br>   <span class='keyword'> function </span> <span class='keyname'>bar</span>() { <br><br> } </div> Thanks for reading this test post!",
       "date": "01/01/2024",
       "id": 3
-    },
-    {
-      "title": "Test Post 4",
-      "description": "Test Post 4 description",
-      "read-time": "6",
-      "content": "Tests, tests, tests. I love tests. They are cool. Wow. I like tests.",
-      "date": "01/01/2024",
-      "id": 4
-    },
-    {
-      "title": "Test Post 5",
-      "description": "Test Post 5 description",
-      "read-time": "5",
-      "content": "Tests, tests, tests. I love tests. They are cool. Wow. I like tests.",
-      "date": "01/01/2024",
-      "id": 5
-    },
-    {
-      "title": "Test Post 6",
-      "description": "Test Post 6 description",
-      "read-time": "6",
-      "content": "Tests, tests, tests. I love tests. They are cool. Wow. I like tests.",
-      "date": "01/01/2024",
-      "id": 6
-    },
-    {
-      "title": "Test Post 7",
-      "description": "Test Post 7 description",
-      "read-time": "7",
-      "content": "Tests, tests, tests. I love tests. They are cool. Wow. I like tests.",
-      "date": "01/01/2024",
-      "id": 7
-    },
-    {
-      "title": "Test Post 8",
-      "description": "Test Post 8 description hehehe",
-      "read-time": "8",
-      "content": "Tests, tests, tests. I love tests. They are cool. Wow. I like tests.",
-      "date": "01/01/2024",
-      "id": 8
-    },
-    {
-      "title": "Test Post 9",
-      "description": "Test Post 9 description",
-      "read-time": "9",
-      "content": "Tests, tests, tests. I love tests. They are cool. Wow. I like tests.",
-      "date": "01/01/2024",
-      "id": 9
     }
   ],
-  "num": 8
+  "num": 3
 }
