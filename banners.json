@@ -1,10 +1,6 @@
 {
   "banners": [
     {
-      "title": "SummaSync",
-      "body": "SummaSync is going to be a really versatile text summarisation app - I hope you're as excited as I am! \u003cp\u003e\u003csub\u003eMore details coming soon!\u003c/sub\u003e\u003c/p\u003e"
-    },
-    {
       "title": "Welcome!",
       "body": "\u003cb\u003e Hey - \u003c/b\u003e welcome to my blog! I hope you'll learn some awesome new things here :) \u003ca class='banner-btn' href='post.html?id=1'\u003e Learn More \u003c/a\u003e"
     }
